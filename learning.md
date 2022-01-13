@@ -104,3 +104,21 @@
     ```
 
 - opacity
+
+# 강의 6.7
+varibles.css 만들고
+```CSS
+  :root{
+    --yellow:#fae100;
+  }
+
+  //변수 쓸 때
+  var(--yellow)
+```
+
+border<-->outline
+
+pseudo-element : selector::element - 포함된거
+pseudo-class : selector:class - ~상태
+
+# 강의 6.9
