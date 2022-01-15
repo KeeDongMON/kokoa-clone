@@ -122,3 +122,50 @@ pseudo-element : selector::element - 포함된거
 pseudo-class : selector:class - ~상태
 
 # 강의 6.9
+
+```html
+<form action="friends.html" method="get" login-form">
+```
+
+# 강의 6.10
+
+nav>ul>li*4>a
+
+a는 기본 색깔이 blue -> reset.css에서 바꿔주자.
+
+nav아래 고정
+```css
+positon:fixed;
+bottom:0;
+```
+
+# 강의 6.11
+
+```css
+box-sizing : border-box;
+```
+nav에 width : 100%를 적용했을 때 오른쪽이 짤리는 경우
+- padding 때문임
+- padding 20px + width 100% 해서 박스의 크기가 화면보다 커짐
+- 따라서 border-box를 통해 해결
+
+# 강의 6.13
+
+display : absolute 쓰려면 parent가 relative여야 한다.
+
+# 강의 6.16
+
+- 자주 반복되는 것은 component화 해서 따로 저장하자
+
+- component의 종류는 같지만 size가 다르거나 하면
+```css
+<img class="user-component__avatar user-component__avatar--xl" src="images/01.png"/>
+```
+ 처럼 class를 하나 추가하자
+
+- 설계할 때
+  - header
+  - main
+  - footer
+
+ 
