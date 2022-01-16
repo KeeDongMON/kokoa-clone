@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chats - kokoaclone</title>
+    <title>More - KokoaClone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -24,38 +24,66 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icons">
             <a href="#">
                 <i class="fas fa-search fa-lg"></i>
             </a>
             <a href="#">
-                <i class="far fa-comment fa-lg"></i>
-            </a>
-            <a href="#">
                 <i class="fas fa-music fa-lg"></i>
             </a>
-            <a href="#" >
+            <a href="settings.html" >
                 <i class="fas fa-cog fa-lg"></i>
+                <span class="nav__dot"> </span>
             </a>
         </div>
     </header>
 
     <main class="main-screen">
-        
-        <a href="chat.html" class="user-component">
+        <div class="user-component">
             <div class="user-component__column">
                 <img class="user-component__avatar" src="images/KakaoTalk_20220116_003341495.jpg"/>       
                 <div class="user-component__text">
-                    <h4 class="user-component__name">함윤주</h4>
-                    <h6 class="user-component__subtitle">응애</h6>
+                    <h4 class="user-component__name">기동언</h4>
+                    <h6 class="user-component__subtitle">
+                        010-4772-0435
+                        <i class="fas fa-exclamation-circle"></i>
+                    </h6>
                 </div>
             </div>
             <div class="user-component__column">
-                <span class="user-component__time">21:22</span>
-                <div class="badge">1</div>
+                <i class="far fa-comment-alt fa-3x"></i>
             </div>
-        </a>
+        </div>
+
+        <div class="icons-row">
+            <div class="icons-row__icon">
+                <i class="fas fa-qrcode"></i>
+                <span>Calendar</span>
+            </div>
+            <div class="icons-row__icon">
+                <i class="far fa-address-book"></i>
+                <span>
+                    Talk Drive
+                </span>
+            </div>
+            <div class="icons-row__icon">
+                <i class="far fa-id-card"></i>
+                <span>Emoticons</span>
+            </div>
+            <div class="icons-row__icon">
+                <i class="far fa-envelope"></i>
+                <span>Themes</span>
+            </div>
+            <div class="icons-row__icon">
+                <i class="far fa-envelope"></i>
+                <span>Account</span>
+            </div>
+            <div class="icons-row__icon">
+                <i class="far fa-envelope"></i>
+                <span>Openchat</span>
+            </div>
+        </div>
     </main>
 
     <nav class="nav">
@@ -67,8 +95,7 @@
             </li>
             <li class="nav__btn">
                 <a class = "nav__link" href="chats.html">
-                    <span class="nav__notification badge">1</span>
-                    <i class="fas fa-comment fa-lg"></i>
+                    <i class="far fa-comment fa-lg"></i>
                 </a>
             </li>
             <li class="nav__btn">
@@ -85,7 +112,9 @@
         </ul>
     </nav>
 
-    <script src="https://kit.fontawesome.com/6478f529f2.js"crossorigin="anonymous">
-    </script>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
 </body>
 </html>

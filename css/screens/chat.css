@@ -1,0 +1,29 @@
+#chat-screen {
+  background-color: blanchedalmond;
+  height: 11000vh;
+}
+#chat-screen .status-bar,
+#chat-screen .alt-header {
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  background-color: blanchedalmond;
+}
+#chat-screen .status-bar {
+  z-index: 2;
+}
+.main-chat {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-chat__date {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 25px;
+}

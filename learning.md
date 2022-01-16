@@ -168,4 +168,10 @@ display : absolute 쓰려면 parent가 relative여야 한다.
   - main
   - footer
 
+ # 강의 6.20
  
+ span은 inline요소이므로 padding-top이 안돼
+
+ position : fixed 하면 부모로부터 독립됨(diffent layer)
+ -> 넓이도 달라짐
+ -> width:100% 하자

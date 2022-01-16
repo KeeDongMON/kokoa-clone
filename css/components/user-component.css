@@ -35,4 +35,9 @@
 }
 .user-component__column:last-child {
   color: rgb(0, 0, 0, 0.4);
+  display: block;
+}
+.user-component__time {
+  padding: 10px;
+  display: block;
 }

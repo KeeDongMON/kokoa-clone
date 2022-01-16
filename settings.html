@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chats - kokoaclone</title>
+    <title>Settings - KokoaClone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -23,39 +23,36 @@
         </div> 
     </div>
 
-    <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
-        <div class="screen-header__icons">
-            <a href="#">
-                <i class="fas fa-search fa-lg"></i>
-            </a>
-            <a href="#">
-                <i class="far fa-comment fa-lg"></i>
-            </a>
-            <a href="#">
-                <i class="fas fa-music fa-lg"></i>
-            </a>
-            <a href="#" >
-                <i class="fas fa-cog fa-lg"></i>
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="more.html">
+                <i class="fas fa-chevron-left"></i>
             </a>
         </div>
+        <div class="alt-header__column">
+            <span class="alt-header__title">Settings</span>
+        </div>
+        <div class="alt-header__column">
+            <i class="fas fa-search fa-lg"></i>
+        </div>
+        
     </header>
 
     <main class="main-screen">
-        
-        <a href="chat.html" class="user-component">
-            <div class="user-component__column">
-                <img class="user-component__avatar" src="images/KakaoTalk_20220116_003341495.jpg"/>       
-                <div class="user-component__text">
-                    <h4 class="user-component__name">함윤주</h4>
-                    <h6 class="user-component__subtitle">응애</h6>
-                </div>
-            </div>
-            <div class="user-component__column">
-                <span class="user-component__time">21:22</span>
-                <div class="badge">1</div>
-            </div>
-        </a>
+        <ul class="setting-list">
+            <list class="setting-list__setting">
+                <i class="fas fa-bullhorn"></i>
+                <span>Notices</span>
+            </list>
+            <list class="setting-list__setting">
+                <i class="fas fa-flask"></i>
+                <span>Kakao Lab</span>
+            </list>
+            <list class="setting-list__setting">
+                <i class="fas fa-info-circle"></i>
+                <span>Version</span>
+            </list>
+        </ul>
     </main>
 
     <nav class="nav">

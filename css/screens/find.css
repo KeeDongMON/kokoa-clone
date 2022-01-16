@@ -1,0 +1,77 @@
+.recommended-friends {
+  padding: 18px 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.5);
+}
+.recommended-friends__friends {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.open-chat {
+  padding-top: 15px;
+}
+.open-chat__header {
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: space-between;
+}
+.open-chat__header a {
+  text-decoration: none;
+}
+.open-chat__chat {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.open-chat__chat:last-child {
+  border: none;
+}
+.open-chat__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.open-chat__chat__title {
+  font-size: 23px;
+  padding: 6px;
+}
+.open-chat__chat__tags {
+  color: rgba(0, 0, 0, 0.4);
+  padding: 6px;
+}
+.open-chat__chat__discriptions {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+}
+.open-chat__chat__members {
+  color: rgba(0, 0, 0, 0.4);
+  padding: 5px;
+}
+.open-chat__chat__state {
+  color: tomato;
+}
+.open-chat__chat__pi {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.open-chat__chat__image {
+  width: 120px;
+  height: 120px;
+  border-radius: 20%;
+}
+.open-chat__chat__likes {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 30%;
+  padding: 3px;
+  right: 7px;
+  bottom: 5px;
+  position: absolute;
+  color: white;
+}

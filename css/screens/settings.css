@@ -1,0 +1,15 @@
+.setting-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20vh;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.4);
+  padding-bottom: 20px;
+}
+.setting-list__setting {
+  font-size: 30px;
+  font-weight: 100;
+}
+.setting-list__setting i {
+  padding-right: 20px;
+}

@@ -1,0 +1,14 @@
+.icons-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.icons-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 25px;
+}
+.icons-row__icon i {
+  font-size: 40px;
+  padding-bottom: 15px;
+}
